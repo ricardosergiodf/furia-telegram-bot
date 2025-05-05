@@ -1,4 +1,6 @@
-TOKEN = '7671456279:AAHgda3gPqaxL0AsLNbc85lZjyJ01DN1JO8'
+import os
+
+TOKEN = os.getenv("TOKEN")
 BOT_USERNAME = '@Furia_BotDoBot'
 
 COMANDOS_DISPONIVEIS = ['/start', '/help', '/comandos', '/conquistas', '/times', '/historia', '/redes_sociais']
